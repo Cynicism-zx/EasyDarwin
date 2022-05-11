@@ -17,11 +17,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/EasyDarwin/EasyDarwin/models"
-	"github.com/penggy/EasyGoLib/db"
-	"github.com/penggy/EasyGoLib/utils"
+	"EasyDarwin/helper/penggy/EasyGoLib/db"
+	"EasyDarwin/helper/penggy/EasyGoLib/utils"
+	"EasyDarwin/models"
 
-	"github.com/teris-io/shortid"
+	"EasyDarwin/helper/teris-io/shortid"
 )
 
 type RTPPack struct {

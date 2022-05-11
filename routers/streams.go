@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/EasyDarwin/EasyDarwin/models"
-	"github.com/penggy/EasyGoLib/db"
+	"EasyDarwin/helper/penggy/EasyGoLib/db"
+	"EasyDarwin/models"
 
-	"github.com/EasyDarwin/EasyDarwin/rtsp"
-	"github.com/gin-gonic/gin"
+	"EasyDarwin/helper/gin-gonic/gin"
+	"EasyDarwin/rtsp"
 )
 
 /**

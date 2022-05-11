@@ -1,6 +1,6 @@
 package routers
 
-import "github.com/penggy/EasyGoLib/utils"
+import "EasyDarwin/helper/penggy/EasyGoLib/utils"
 
 var BuildVersion = "v8.1"
 var BuildDateTime = ""

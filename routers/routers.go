@@ -1,20 +1,18 @@
 package routers
 
 import (
+	"EasyDarwin/helper/penggy/EasyGoLib/db"
 	"fmt"
 	"log"
 	"mime"
 	"net/http"
-	"path/filepath"
 
-	"github.com/penggy/EasyGoLib/db"
-
-	"github.com/gin-contrib/pprof"
-	"github.com/gin-contrib/static"
-	"github.com/gin-gonic/gin"
-	"github.com/penggy/EasyGoLib/utils"
-	"github.com/penggy/cors"
-	"github.com/penggy/sessions"
+	"EasyDarwin/helper/gin-contrib/pprof"
+	"EasyDarwin/helper/gin-contrib/static"
+	"EasyDarwin/helper/gin-gonic/gin"
+	"EasyDarwin/helper/penggy/EasyGoLib/utils"
+	"EasyDarwin/helper/penggy/cors"
+	"EasyDarwin/helper/penggy/sessions"
 	validator "gopkg.in/go-playground/validator.v8"
 )
 
@@ -119,7 +117,8 @@ func Init() (err error) {
 	sessionHandle := sessions.Sessions("token", store)
 
 	{
-		wwwDir := filepath.Join(utils.DataDir(), "www")
+		//wwwDir := filepath.Join(utils.DataDir(), "www")
+		wwwDir := "./www"
 		Router.Use(static.Serve("/", static.LocalFile(wwwDir, true)))
 	}
 

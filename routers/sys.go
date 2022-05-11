@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/EasyDarwin/EasyDarwin/models"
-	"github.com/EasyDarwin/EasyDarwin/rtsp"
-	"github.com/gin-gonic/gin"
-	"github.com/penggy/EasyGoLib/db"
-	"github.com/penggy/EasyGoLib/utils"
-	"github.com/penggy/sessions"
-	"github.com/shirou/gopsutil/cpu"
-	"github.com/shirou/gopsutil/mem"
+	"EasyDarwin/helper/gin-gonic/gin"
+	"EasyDarwin/helper/penggy/EasyGoLib/db"
+	"EasyDarwin/helper/penggy/EasyGoLib/utils"
+	"EasyDarwin/helper/penggy/sessions"
+	"EasyDarwin/helper/shirou/gopsutil/cpu"
+	"EasyDarwin/helper/shirou/gopsutil/mem"
+	"EasyDarwin/models"
+	"EasyDarwin/rtsp"
 )
 
 /**

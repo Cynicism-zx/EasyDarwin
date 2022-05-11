@@ -16,11 +16,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/teris-io/shortid"
+	"EasyDarwin/helper/teris-io/shortid"
 
-	"github.com/penggy/EasyGoLib/utils"
+	"EasyDarwin/helper/penggy/EasyGoLib/utils"
 
-	"github.com/pixelbender/go-sdp/sdp"
+	"EasyDarwin/helper/pixelbender/go-sdp/sdp"
 )
 
 type RTSPClient struct {

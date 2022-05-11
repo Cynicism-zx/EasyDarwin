@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin"
-	"github.com/penggy/EasyGoLib/utils"
+	"EasyDarwin/helper/gin-gonic/gin"
+	"EasyDarwin/helper/penggy/EasyGoLib/utils"
 )
 
 /**
